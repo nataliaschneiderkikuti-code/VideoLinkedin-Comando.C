@@ -52,7 +52,7 @@ class LinkedinParte1(MovingCameraScene):
 
         # ------------------------animações em cada parada-----------------------
         primeira = MarkupText('<span><b>Qualidade</b> de ensino</span>', font_size=70).scale(0.7).next_to(path[2], RIGHT, buff=0.6)
-        capelo = ImageMobject("assets/image.png").scale(0.6).next_to(primeira, UP, buff=0.1)
+        capelo = ImageMobject("assets/capelo.png").scale(0.6).next_to(primeira, UP, buff=0.1)
         a1 = Group(primeira, capelo)
 
         segunda = MarkupText('<span><b>Democratização</b>\ndo Conhecimento</span>', font_size=70).scale(0.7).next_to(path[4], LEFT, buff=0.6)
@@ -60,7 +60,7 @@ class LinkedinParte1(MovingCameraScene):
         a2=Group(segunda, pessoas)
 
         terceira = MarkupText('<span><b>Fidelidade</b> ao\nconhecimento técnico</span>', font_size=70).scale(0.7).next_to(path[6], RIGHT, buff=0.6)
-        livro = ImageMobject("assets/livro2.png").scale(0.6).next_to(terceira, UP, buff=0.4)
+        livro = ImageMobject("assets/livro.png").scale(0.6).next_to(terceira, UP, buff=0.4)
         a3 = Group(terceira, livro)
         #-------------------------------------------------------------------------
 
